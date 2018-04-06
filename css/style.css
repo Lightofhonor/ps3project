@@ -3,189 +3,38 @@
     padding: 0;
     font-size: inherit;
     color: inherit;
-    -webkit-font-smoothing: antialiased;
-    font-family: 'PT Sans', sans-serif;
+   
 }
 
-@font-face {
-    font-family: 'MetropolisMedium';
-    src: url('../fonts/MetropolisMedium.eot');
-    src: url('../fonts/MetropolisMedium.eot') format('embedded-opentype'),
-    url('../fonts/MetropolisMedium.woff2') format('woff2'),
-    url('../fonts/MetropolisMedium.woff') format('woff'),
-    url('../fonts/MetropolisMedium.ttf') format('truetype'),
-    url('../fonts/MetropolisMedium.svg#MetropolisMedium') format('svg');
-}
-
-@font-face {
-    font-family: 'BebasNeueBook';
-    src: url('../fonts/BebasNeueBook.eot');
-    src: url('../fonts/BebasNeueBook.eot') format('embedded-opentype'),
-    url('../fonts/BebasNeueBook.woff2') format('woff2'),
-    url('../fonts/BebasNeueBook.woff') format('woff'),
-    url('../fonts/BebasNeueBook.ttf') format('truetype'),
-    url('../fonts/BebasNeueBook.svg#BebasNeueBook') format('svg');
-}
-
-header {
-    background-color: rgba(0, 0, 0, 0.65);
-    position: absolute;
-    z-index: 5;
-    width: 100%;
-}
-
-.bg {
-    background-position: top;
-}
 
 .content {
-    max-width: 1380px;
-    width: 100%;
-    margin: 0 auto;
+    vertical-align: middle;
+    max-width: 1300px;
+    padding-left: 6px;
+    padding-right: 24px;
 }
 
-.logo {
-    float: left;
-    margin: 30px 0 25px 0;
-
+header span {
+    color: #d00130;
+    font-family: Arial;
+    font-size: 10px;
+    
 }
 
-.cont {
-    font-family: 'MetropolisMedium', sans-serif;
-    float: right;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    display: inline-block;
-    margin: 40px 10px 0 10px;
-    padding: 15px 20px;
-    border-radius: 2px;
+header p {
+    float:left;
+    font-size: 10px;
+    font-family: Arial;
+}
 
+.country {
+    margin-left:15px;
+    float:left;
+    display:inline;
 }
 
 
-.social {
-    width: 36px;
-    height: 36px;
-    background-color: red;
-    font-size: 23px;
-    float: right;
-    text-align: center;
-    margin-left: 20px;
-    box-sizing: border-box;
-}
-
-.social i {
-    margin-top: 7px;
-}
-
-.search {
-    background-color: white;
-    font-family: 'MetropolisMedium', sans-serif;
-    float: right;
-    text-decoration: none;
-    font-size: 18px;
-    display: inline-block;
-    margin: 40px 10px 0 0;
-    border-radius: 2px;
-}
-
-.clearfix {
-    clear: both;
-}
-
-input {
-    font-family: 'MetropolisMedium', sans-serif;
-    border: 0;
-    float: left;
-    font-size: 18px;
-    color: black;
-    padding: 17px 0 15px 20px;
-    width: 181px;
-
-
-}
-
-#button {
-    border: 0;
-    float: right;
-    color: red;
-    font-size: 18px;
-    padding: 13.5px 13.5px;
-
-}
-
-.online {
-    background-color: #252525;
-
-
-}
-
-.cont i {
-    margin-right: 10px;
-}
-
-.login {
-    background-color: #464646;
-
-}
-
-.signup {
-    background-color: #fa090a;
-    margin-right: 0;
 
 
 
-}
 
-hr {
-    border: solid #464646 1px;
-    margin-bottom: 20px;
-
-
-}
-
-ul {
-    padding-left: 5px;
-    margin-top: 5px;
-    float: left;
-}
-
-ul a {
-    font-family: 'BebasNeueBook', sans-serif;
-    color: white;
-    font-size: 27px;
-    text-decoration: none;
-}
-
-ul li:hover a {
-    border-bottom: red solid 1px;
-}
-
-li {
-    display: inline-block;
-    margin-right: 27px;
-    margin-bottom: 30px;
-}
-
-h1 {
-    font-family: 'BebasNeueBook', sans-serif;
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    border-bottom: red solid 1px;
-    padding-bottom: 30px;
-    position: absolute;
-    width: 100%;
-    bottom: 25px;
-
-}
-
-.pic {
-    z-index: 1;
-    width: 100%;
-}
-
-section {
-    position: relative;
-}
