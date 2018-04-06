@@ -1,0 +1,95 @@
+/* monitors and laptops */
+
+@media only screen and (max-width: 1199px) {
+   .logo img {
+        max-width: 100%;
+    }
+
+    header {
+        position: relative;
+        z-index: 1;
+    }
+    section {
+        position: absolute;
+        z-index: 0;
+    }
+   
+}
+
+
+@media only screen and (max-width: 992px) {
+  .logo img {
+        max-width: 100%;
+    }
+  
+    input {
+        float: left;
+    }
+    #button {
+        float: left;
+    }
+     header {
+        position: relative;
+        z-index: 1;
+    }
+    section {
+        position: absolute;
+        z-index: 0;
+    }
+  }
+
+
+@media only screen and (max-width: 768px) {
+
+    .container{
+        text-align: center;
+    }
+    .logo {
+        float: none;
+        text-align: center;
+    }
+    .logo img {
+        max-width: 100%;
+    }
+
+    .search {
+        float: none;
+        margin: auto;
+        display: inline-block;
+        text-align: center;
+    }
+    input {
+        float: left;
+    }
+    #button {
+        float: left;
+    }
+    .cont {
+        float: none;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    li {
+        float:none;
+        display: block;
+        margin: auto;
+        }
+    
+     header {
+        position: relative;
+        z-index: 1;
+    }
+    section {
+        position: absolute;
+        z-index: 0;
+    }
+    .pic{
+        height:100%;
+    }
+    h1 {
+        padding-bottom: 2%;
+        position
+    }
+}
